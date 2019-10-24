@@ -37,7 +37,7 @@ namespace HotkeySelection
             hotkeySelector2.UnregisterSelectedHotkey();
         }
 
-        //Gets hotkey data from selector1 (saving) and sets it to selector2 (loading))
+        //Gets hotkey data from selector1 (saving) and sets it to selector2 (loading)
         private void btnMimicSave_Click(object sender, EventArgs e)
         {
             int savedData = hotkeySelector1.getHotKeyCode();
